@@ -1,0 +1,46 @@
+{
+  "name": "node_stuff",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dc": "~1.7.1"
+  },
+  "devDependencies": {
+    "glob": "^4.0.3",
+    "grunt":"*",
+    "grunt-contrib-jshint":"*",
+    "grunt-contrib-uglify":"*",
+    "grunt-contrib-compress": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6",
+    "grunt-text-replace": "^0.3.12",
+    "grunt-webpack": "^1.0.7",
+    "dc":"*", 
+    "css-loader": "~0.6.12",
+    "exports-loader": "~0.6.2",
+    "file-loader": "^0.5.1",
+    "html-loader": "~0.2.2",
+    "imports-loader": "^0.6.3",
+    "json-loader": "^0.5.1",
+    "less-loader": "~0.7.3",
+    "mocha-loader": "^0.6.4",
+    "script-loader": "^0.5.2",
+    "serve-static": "^1.2.3",
+    "style-loader": "~0.6.3",
+    "morgan": "^1.2.0",
+    "less": "~1.7.0",
+    "load-grunt-tasks": "^0.6.0",
+    "mocha": "^1.20.1",
+    "npm": "~1.4.10",
+    "sinon": "^1.10.2",
+    "install": "~0.1.7",
+    "webpack": "^1.3.1-beta7",
+    "webpack-dev-server": "^1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}
