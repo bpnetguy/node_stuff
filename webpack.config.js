@@ -7,11 +7,11 @@ module.exports = {
   cache: true,
   entry: {
     app: "./index.js",
-    tests: "./tests/index.js"
+    //tests: "./tests/index.js"
   },
   output: {
-    path: __dirname + "/dev",
-    filename: "[name].bundle.js"
+    path: __dirname + "/build",
+    filename: "[name].min.js"
   },
   module: {
     loaders: [
